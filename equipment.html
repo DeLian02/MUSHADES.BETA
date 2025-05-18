@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MusHades - Community Forum</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>MusHades - Premium Fitness Experience</title>
 </head>
-<body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background-color: #f5f7fa; color: #333; line-height: 1.6;">
+<body style="margin: 0; padding: 0; font-family: 'Arial', sans-serif; background-color: #000000; color: #ffffff;">
     <!-- Header/Navigation -->
     <header style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background-color: #000000; position: sticky; top: 0; z-index: 1000;">
         <!-- Logo -->
@@ -17,8 +16,8 @@
             <ul style="display: flex; list-style: none; margin: 0; padding: 0;">
                 <li><a href="index.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;">Home</a></li>
                 <li><a href="workout.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;">Workouts</a></li>
-                <li><a href="equipment.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;">Equipment</a></li>
-                <li><a href="community.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;border-bottom: 2px solid #ff3a2d;">Community</a></li>
+                <li><a href="equipment.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;border-bottom: 2px solid #ff3a2d;">Equipment</a></li>
+                <li><a href="community.html" style="color: #ffffff; text-decoration: none; padding: 0.5rem 1rem; margin: 0 0.5rem;">Community</a></li>
             </ul>
         </nav>
         
@@ -26,143 +25,148 @@
         <div style="display: flex; gap: 1rem;"></div>
     </header>
 
-    <div style="max-width: 1200px; margin: 2rem auto; padding: 0 1rem; display: flex; flex-direction: column;">
-        <!-- Forum Header -->
-        <div style="margin-bottom: 2rem;">
-            <h1 style="font-size: 2rem; margin-bottom: 0.5rem; color: #333;">Forum Komunitas</h1>
-            <p style="color: #666; margin: 0;">Bergabung dalam diskusi dan berbagi pengalaman fitness Anda</p>
+    <!-- Hero Section -->
+    <header style="height: 60vh; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/equipment-hero.jpg') no-repeat center center/cover; display: flex; align-items: center; position: relative; overflow: hidden; margin-bottom: 2rem;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, #ff3a2d 0%, transparent 70%); opacity: 0.5;"></div>
+        <div style="padding: 0 5%; z-index: 1; position: relative;">
+            <h1 style="font-size: xx-large; margin-bottom: 1rem; font-weight: bold;">EQUIPMENT GUIDE</h1>
+            <p style="font-size: 1.5rem; max-width: 600px;">Master the tools, master your workout. Learn how to properly use gym equipment for maximum results.</p>
         </div>
+    </header>
 
-        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
-            <!-- Main Forum Content -->
-            <div style="flex: 1; min-width: 300px;">
-                <!-- New Post Form -->
-                <div style="background-color: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <textarea placeholder="Mulai diskusi baru..." style="width: 100%; min-height: 100px; padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; resize: none; font-family: inherit; margin-bottom: 1rem; box-sizing: border-box;"></textarea>
-                    <div style="display: flex; justify-content: flex-end;">
-                        <button style="background-color: #ff3a2d; color: white; border: none; padding: 0.7rem 1.5rem; border-radius: 4px; cursor: pointer; font-weight: bold;">Posting</button>
-                    </div>
+    <!-- Equipment Introduction -->
+    <section style="padding: 3rem 5%; text-align: center;">
+        <h2 style="font-size: xx-large; margin-bottom: 1.5rem; position: relative; display: inline-block;">
+            <span style="position: relative; z-index: 1;">Our Equipment Tutorials</span>
+            <span style="position: absolute; bottom: 0; left: 0; width: 100%; height: 10px; background-color: #ff3a2d; opacity: 0.5; z-index: 0;"></span>
+        </h2>
+        <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto 3rem auto;">Select any equipment below to learn the proper technique, safety guidelines, and get the most out of your workout.</p>
+    </section>
+
+    <!-- Equipment Grid -->
+    <section style="padding: 0 5% 5rem 5%;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem;">
+            <!-- Equipment Item 1 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/bench.png" alt="Bench Press" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
                 </div>
-
-                <!-- Forum Posts -->
-                <!-- Post 1 -->
-                <div style="background-color: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                        <img src="community/cewe.jpg" alt="User Avatar" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
-                        <div>
-                            <h3 style="margin: 0; font-size: 1rem; color: #333;">Yuni Sasmi</h3>
-                            <p style="margin: 0; font-size: 0.8rem; color: #888;">2 jam yang lalu</p>
-                        </div>
-                    </div>
-                    <p style="margin-top: 0; margin-bottom: 1.5rem;">Bagaimana cara menjaga konsistensi dalam program latihan? Saya sering merasa kehilangan motivasi setelah beberapa minggu.</p>
-                    <div style="display: flex; gap: 1.5rem;">
-                        <div style="display: flex; align-items: center; color: #666;">
-                            <i class="far fa-heart" style="margin-right: 0.5rem;"></i>
-                            <span>24</span>
-                        </div>
-                        <div style="display: flex; align-items: center; color: #666;">
-                            <i class="far fa-comment" style="margin-right: 0.5rem;"></i>
-                            <span>12</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Post 2 -->
-                <div style="background-color: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
-                        <img src="community/kurus.jpg" alt="User Avatar" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
-                        <div>
-                            <h3 style="margin: 0; font-size: 1rem; color: #333;">Farhan</h3>
-                            <p style="margin: 0; font-size: 0.8rem; color: #888;">4 jam yang lalu</p>
-                        </div>
-                    </div>
-                    <p style="margin-top: 0; margin-bottom: 1rem;">Transformasi 3 bulan saya! Berhasil menurunkan 10kg dengan kombinasi cardio dan latihan beban. Jangan menyerah!</p>
-                    <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-                        <img src="community/tranf.jpg" alt="Before" style="width: calc(50% - 0.5rem); max-width: 300px; border-radius: 8px; object-fit: cover;">
-                        <img src="community/transform.jpg" alt="After" style="width: calc(50% - 0.5rem); max-width: 300px; border-radius: 8px; object-fit: cover;">
-                    </div>
-                    <div style="display: flex; gap: 1.5rem;">
-                        <div style="display: flex; align-items: center; color: #666;">
-                            <i class="far fa-heart" style="margin-right: 0.5rem;"></i>
-                            <span>156</span>
-                        </div>
-                        <div style="display: flex; align-items: center; color: #666;">
-                            <i class="far fa-comment" style="margin-right: 0.5rem;"></i>
-                            <span>45</span>
-                        </div>
-                    </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Bench Press</h3>
+                    <p style="margin-bottom: 1.5rem;">Master the king of chest exercises with proper form and technique.</p>
+                    <a href="equipment/bench-press.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
                 </div>
             </div>
 
-            <!-- Sidebar -->
-            <div style="width: 300px;">
-                <!-- Success Stories -->
-                <div style="background-color: #fff; border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <h2 style="font-size: 1.2rem; margin-top: 0; margin-bottom: 1.5rem; color: #333;">Cerita Sukses Terpopuler</h2>
-                    
-                    <!-- Success Story 1 -->
-                    <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
-                        <img src="community/keren.jpg" alt="User Avatar" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
-                        <div>
-                            <h3 style="margin: 0; font-size: 1rem; color: #333;">Budi Santoso</h3>
-                            <p style="margin: 0; font-size: 0.8rem; color: #ff3a2d;">-15kg dalam 6 bulan</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Success Story 2 -->
-                    <div style="display: flex; align-items: center;">
-                        <img src="community/pfp g.jpg" alt="User Avatar" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
-                        <div>
-                            <h3 style="margin: 0; font-size: 1rem; color: #333;">Dewi Putri</h3>
-                            <p style="margin: 0; font-size: 0.8rem; color: #ff3a2d;">+8kg massa otot</p>
-                        </div>
-                    </div>
+            <!-- Equipment Item 2 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/squat.png" alt="Squat Rack" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
                 </div>
-                
-                <!-- Upcoming Events -->
-                <div style="background-color: #fff; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <h2 style="font-size: 1.2rem; margin-top: 0; margin-bottom: 1.5rem; color: #333;">Event Mendatang</h2>
-                    
-                    <!-- Event 1 -->
-                    <div style="margin-bottom: 1.5rem; border-left: 3px solid #ff3a2d; padding-left: 1rem;">
-                        <h3 style="margin: 0; font-size: 1rem; color: #333;">Tantangan Fitness Musim Panas</h3>
-                        <p style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">15 Juni 2024 • 10:00 WIB</p>
-                        <a href="#" style="color: #ff3a2d; text-decoration: none; font-size: 0.9rem; font-weight: bold;">Daftar Sekarang</a>
-                    </div>
-                    
-                    <!-- Event 2 -->
-                    <div style="border-left: 3px solid #ff3a2d; padding-left: 1rem;">
-                        <h3 style="margin: 0; font-size: 1rem; color: #333;">Workshop Nutrisi</h3>
-                        <p style="margin: 0.5rem 0; font-size: 0.9rem; color: #666;">5 Juli 2024 • 18:00 WIB</p>
-                        <a href="#" style="color: #ff3a2d; text-decoration: none; font-size: 0.9rem; font-weight: bold;">Daftar Sekarang</a>
-                    </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Squat Rack</h3>
+                    <p style="margin-bottom: 1.5rem;">Learn how to safely use the squat rack for lower body strength.</p>
+                    <a href="equipment/squat-rack.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Equipment Item 3 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/cable.png" alt="Cable Machine" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Cable Machine</h3>
+                    <p style="margin-bottom: 1.5rem;">Discover the versatility of cable machines for full-body workouts.</p>
+                    <a href="equipment/cable-machine.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Equipment Item 4 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/dumb.png" alt="Dumbbells" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Dumbbells</h3>
+                    <p style="margin-bottom: 1.5rem;">Learn proper form for various dumbbell exercises for all fitness levels.</p>
+                    <a href="equipment/dumbbells.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Equipment Item 5 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/leg.png" alt="Leg Press" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Leg Press</h3>
+                    <p style="margin-bottom: 1.5rem;">Master the leg press machine for powerful lower body development.</p>
+                    <a href="equipment/leg-press.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Equipment Item 6 -->
+            <div style="background-color: #232323; border-radius: 10px; overflow: hidden; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                <div style="height: 200px; overflow: hidden; position: relative;">
+                    <img src="equipment/lat.png" alt="Lat Pulldown" style="width: 100%; height: 100%; object-fit: cover;">
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
+                </div>
+                <div style="padding: 1.5rem;">
+                    <h3 style="color: #ff3a2d; margin-bottom: 1rem; font-size: 1.5rem;">Lat Pulldown</h3>
+                    <p style="margin-bottom: 1.5rem;">Build a stronger back with proper lat pulldown technique and variations.</p>
+                    <a href="equipment/lat-pulldown.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Equipment Detail Example -->
+    <section style="padding: 3rem 5%; background-color: #232323; margin-bottom: 5rem;">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem;">
+            <div style="flex: 1 1 400px;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; color: #ff3a2d;">Featured Equipment: Bench Press</h2>
+                <p style="margin-bottom: 1.5rem;">The bench press is one of the most popular exercises for developing upper body strength, particularly in the chest, shoulders, and triceps.</p>
+                <ul style="list-style: none; padding: 0; margin-bottom: 2rem;">
+                    <li style="margin-bottom: 0.5rem; display: flex; align-items: center;">
+                        <span style="color: #ff3a2d; margin-right: 10px;">✓</span> Builds chest, shoulder, and tricep strength
+                    </li>
+                    <li style="margin-bottom: 0.5rem; display: flex; align-items: center;">
+                        <span style="color: #ff3a2d; margin-right: 10px;">✓</span> Improves pushing power for everyday activities
+                    </li>
+                    <li style="margin-bottom: 0.5rem; display: flex; align-items: center;">
+                        <span style="color: #ff3a2d; margin-right: 10px;">✓</span> Multiple variations for different fitness goals
+                    </li>
+                </ul>
+                <a href="equipment/bench-press.html" style="display: inline-block; padding: 0.7rem 1.5rem; background-color: #ff3a2d; color: #ffffff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s ease;">View Full Tutorial</a>
+            </div>
+            <div style="flex: 1 1 400px; position: relative;">
+                <img src="equipment/bench-press.html" alt="Bench Press Demonstration" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255, 58, 45, 0.8); width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer;">
+                    <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 15px solid white; margin-left: 5px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <!-- Footer -->
 <footer style="background-color: #000000; color: #ffffff; padding: 3rem 5% 1rem; font-family: 'Arial', sans-serif;">
     <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
-        <!-- Brand Section -->
-        <div>
-            <h2 style="font-family: 'Brush Script MT', cursive; color: #ff3a2d; margin-bottom: 1rem; font-size: 2rem;">MusHades</h2>
-            <p style="color: #a0a0a0; margin-bottom: 1.5rem; font-size: 0.9rem; line-height: 1.6;">Transform your body, transform your life with expert-led fitness guidance.</p>
-            <div style="display: flex; gap: 1rem;">
-                <a href="#" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; background-color: #333; border-radius: 50%; color: #fff; text-decoration: none;">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; background-color: #333; border-radius: 50%; color: #fff; text-decoration: none;">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; background-color: #333; border-radius: 50%; color: #fff; text-decoration: none;">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; background-color: #333; border-radius: 50%; color: #fff; text-decoration: none;">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-        </div>
+<!-- Brand Section --> 
+<div> 
+    <h2 style="font-family: 'Brush Script MT', cursive; color: #ff3a2d; margin-bottom: 1rem; font-size: 2rem;">MusHades</h2> 
+    <p style="color: #a0a0a0; margin-bottom: 1.5rem; font-size: 0.9rem; line-height: 1.6;">Transform your body, transform your life with expert-led fitness guidance.</p> 
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;"> 
+        <a href="https://www.instagram.com/zal_aprill?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; background-color: #333; border-radius: 50%; text-decoration: none; transition: background-color 0.3s ease;"> 
+            <img src="icon/instagram.png" alt="Facebook" style="width: 18px; height: 18px;">
+        </a> 
+    </div> 
+</div>
         
         <!-- Quick Links -->
         <div>
@@ -191,17 +195,13 @@
         <!-- Contact -->
         <div>
             <h3 style="color: #ffffff; margin-bottom: 1.5rem; font-size: 1.2rem; font-weight: 600;">Contact</h3>
-            <p style="display: flex; align-items: flex-start; margin-bottom: 1rem; color: #a0a0a0;">
-                <i class="fas fa-map-marker-alt" style="color: #ff3a2d; margin-right: 10px; margin-top: 4px;"></i>
-                123 Fitness Street, Gym City, 10001
-            </p>
             <p style="display: flex; align-items: center; margin-bottom: 1rem; color: #a0a0a0;">
                 <i class="fas fa-phone-alt" style="color: #ff3a2d; margin-right: 10px;"></i>
-                +1 (555) 123-4567
+                +62 123-4567-89
             </p>
             <p style="display: flex; align-items: center; margin-bottom: 1rem; color: #a0a0a0;">
                 <i class="fas fa-envelope" style="color: #ff3a2d; margin-right: 10px;"></i>
-                info@mushades.com
+                MusHadesifo@gmail.com
             </p>
         </div>
     </div>
@@ -212,12 +212,8 @@
     <!-- Copyright -->
     <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
         <p style="color: #a0a0a0; margin: 0; font-size: 0.9rem;">© 2023 MusHades. All rights reserved.</p>
-        <div>
-            <a href="#" style="color: #a0a0a0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem;">Privacy Policy</a>
-            <a href="#" style="color: #a0a0a0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem;">Terms of Service</a>
-            <a href="#" style="color: #a0a0a0; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem;">Cookie Policy</a>
-        </div>
     </div>
 </footer>
 </body>
 </html>
+
